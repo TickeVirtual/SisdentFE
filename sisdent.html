@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facturación Electrónica SISDENT</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            background-color: #0093d0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+        }
+        .logos {
+            display: flex;
+        }
+        .logo-img {
+            width: 30px;
+            height: 30px;
+            margin-right: 2px;
+        }
+        .title {
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .sunat {
+            display: flex;
+            align-items: center;
+        }
+        .sunat-img {
+            width: 50px;
+            height: auto;
+            margin-right: 10px;
+        }
+        .btn-regresar {
+            background-color: #0093d0;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .content {
+            padding: 20px;
+            background-color: white;
+            height: calc(100vh - 60px);
+            box-sizing: border-box;
+        }
+        .embed-frame {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logos">
+            <img src="logo.png" alt="logo" class="logo-img">
+            <img src="logo.png" alt="logo" class="logo-img">
+            <img src="logo.png" alt="logo" class="logo-img">
+            <img src="logo.png" alt="logo" class="logo-img">
+            <img src="logo.png" alt="logo" class="logo-img">
+            <img src="logo.png" alt="logo" class="logo-img">
+            <img src="logo.png" alt="logo" class="logo-img">
+            <img src="logo.png" alt="logo" class="logo-img">
+            <img src="logo.png" alt="logo" class="logo-img">
+            <img src="logo.png" alt="logo" class="logo-img">
+            <img src="logo.png" alt="logo" class="logo-img">
+            <img src="logo.png" alt="logo" class="logo-img">
+            <img src="logo.png" alt="logo" class="logo-img">
+            <img src="logo.png" alt="logo" class="logo-img">
+        </div>
+        <div class="title">
+            FACTURACIÓN ELECTRONICA SISDENT
+        </div>
+        <div class="sunat">
+            <img src="sunat.png" alt="SUNAT" class="sunat-img">
+            <button class="btn-regresar" onclick="regresar()"><< REGRESAR</button>
+        </div>
+    </div>
+    <div class="content">
+        <iframe src="https://lavaflash.misistemayapp.com/login" class="embed-frame"></iframe>
+    </div>
+    <script>
+        function regresar() {
+            window.location.href = "https://www.appsheet.com/start/6bc6420a-6a6b-4c7a-a503-1a73a0c179f1#appName=SISDENT-932193132&sort=%5B%5D&table=MENUCALLCENTER&view=CALL+CENTER";
+        }
+    </script>
+</body>
+</html>
